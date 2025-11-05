@@ -146,7 +146,23 @@ if (App.game) {
 
             MapHelper.moveToTown(dungeon);
             player.region = player.town().region;
-            while (App.game.wallet.currencies[2]() >= player.town().dungeon.tokenCost && this.runs > 0) {
+
+            // Wait for the game to update the town and dungeon
+            await new Promise(resolve => setTimeout(resolve, 1000));
+
+            // Debug logs
+            console.log('Moved to town:', dungeon);
+            console.log('Current town:', player.town());
+            console.log('Current dungeon:', player.town().dungeon);
+
+            while (
+                App.game.wallet.currencies[2]() >= (player.town().dungeon ? player.town().dungeon.tokenCost : Infinity)
+                && this.runs > 0
+            ) {
+                if (!player.town().dungeon) {
+                    console.error('No dungeon found for current town:', player.town());
+                    break;
+                }
                 DungeonRunner.initializeDungeon(player.town().dungeon);
                 this.setupads();
                 await this.loop();
