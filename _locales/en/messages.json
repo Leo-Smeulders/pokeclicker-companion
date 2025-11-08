@@ -1,238 +1,266 @@
 {
-    "manifest_description": {
-        "message": "Automatize Pokeclicker! It will help you to setup an autoclicker, manage hatchery, crawl dungeons and more.",
-        "description": "Application description. type"
-    },
-    "label_click": {
-        "message": "Autoclicker",
-        "description": "Label for autoclicker. type"
-    },
-    "label_hatch": {
-        "message": "Hatchery",
-        "description": "Label for hatchery. type"
-    },
-    "label_dungeon": {
-        "message": "Dungeon",
-        "description": "Label for dungeon. type"
-    },
-    "label_pokerus": {
-        "message": "Pokérus",
-        "description": "Label for Pokérus"
-    },
-    "label_catch": {
-        "message": "Catch",
-        "description": "Label for catch. type"
-    },
-    "label_gyms": {
-        "message": "Auto-Gym Battle",
-        "description": "Label for gyms and champions"
-    },
-    "details_click": {
-        "message": "Enables Autoclicker. Works on wild pokemon, gym leaders and champions.",
-        "description": "Details for autoclicker. type"
-    },
-    "details_hatch": {
-        "message": "Enables Hatchery. Hatch (or makes an egg from) Pokemon sorted accordingly to the setting.",
-        "description": "Details for hatchery. type"
-    },
-    "details_dungeon": {
-        "message": "Enables Dungeon. Solves N dungeons based on the setting.",
-        "description": "Details for dungeon. type"
-    },
-    "details_pokerus": {
-        "message": "Propagates Pokérus to all your pokemon.",
-        "description": "Details for pokerus"
-    },
-    "details_catch": {
-        "message": "Enables Catch based on type. Checks if should catch every 500ms : do not use a faster autoclicker!",
-        "description": "Details for catch. type"
-    },
-    "details_gyms": {
-        "message": "Enables auto-gym battles. You have to clear a gym at least once to enable this feature.",
-        "description": "Details for gyms and champions."
-    },
-    "error_message": {
-        "message": "This tool is only supposed to be used with the web app www.pokeclicker.com. To avoid scripts injections everywhere in this page, you instead see this nice little error message.",
-        "description": "Erreur"
-    },
-    "type_normal": {
-        "message": "Normal",
-        "description": "Name of the normal type"
-    },
-    "type_fire": {
-        "message": "Fire",
-        "description": "Name of the feu type"
-    },
-    "type_water": {
-        "message": "Water",
-        "description": "Name of the eau type"
-    },
-    "type_electric": {
-        "message": "Electric",
-        "description": "Name of the electrique type"
-    },
-    "type_grass": {
-        "message": "Grass",
-        "description": "Name of the plante type"
-    },
-    "type_ice": {
-        "message": "Ice",
-        "description": "Name of the glace type"
-    },
-    "type_fighting": {
-        "message": "Fighting",
-        "description": "Name of the combat type"
-    },
-    "type_poison": {
-        "message": "Poison",
-        "description": "Name of the poison type"
-    },
-    "type_ground": {
-        "message": "Ground",
-        "description": "Name of the sol type"
-    },
-    "type_flying": {
-        "message": "Flying",
-        "description": "Name of the vol type"
-    },
-    "type_psychic": {
-        "message": "Psychic",
-        "description": "Name of the psy type"
-    },
-    "type_bug": {
-        "message": "Bug",
-        "description": "Name of the insecte type"
-    },
-    "type_rock": {
-        "message": "Rock",
-        "description": "Name of the roche type"
-    },
-    "type_ghost": {
-        "message": "Ghost",
-        "description": "Name of the spectre type"
-    },
-    "type_dragon": {
-        "message": "Dragon",
-        "description": "Name of the dragon type"
-    },
-    "type_dark": {
-        "message": "Dark",
-        "description": "Name of the ténèbres type"
-    },
-    "type_steel": {
-        "message": "Steel",
-        "description": "Name of the acier type"
-    },
-    "ball_pokeball": {
-        "message": "Pokeball",
-        "description": "Nom de la balle Pokéball"
-    },
-    "ball_superball": {
-        "message": "Greatball",
-        "description": "Nom de la balle Superball"
-    },
-    "ball_hyperball": {
-        "message": "Ultraball",
-        "description": "Nom de la balle Ultraball"
-    },
-    "type_fairy": {
-        "message": "Fairy",
-        "description": "Name of the fée"
-    },
-    "breed_id": {
-        "message": "Id",
-        "description": "Nom du tri par id"
-    },
-    "breed_name": {
-        "message": "Name",
-        "description": "Nom du tri par nom"
-    },
-    "breed_attack": {
-        "message": "Attack",
-        "description": "Nom du tri par attaque"
-    },
-    "breed_level": {
-        "message": "Level",
-        "description": "Nom du tri par niveau"
-    },
-    "breed_shiny": {
-        "message": "Shiny",
-        "description": "Nom du tri par chromatique"
-    },
-    "breed_base_attack": {
-        "message": "Base Attack",
-        "description": "Nom du tri par attaque de base"
-    },
-    "breed_breeding_eff": {
-        "message": "Breeding Effi.",
-        "description": "Nom du tri par ratio attaque / pas pour éclore"
-    },
-    "breed_egg_steps": {
-        "message": "Egg Steps",
-        "description": "Nom du tri par nombre de pas"
-    },
-    "breed_times_hatched": {
-        "message": "Times Hatched",
-        "description": "Nom du tri par nombre d'éclosion"
-    },
-    "breed_category": {
-        "message": "Category",
-        "description": "Nom du tri par catégorie"
-    },
-    "breed_proteins_used": {
-        "message": "Proteins Used",
-        "description": "Nom du tri par nombre de protéines"
-    },
-    "info_main": {
-        "message": "You can click on any feature's blue arrow to see more details.",
-        "description": "Description des fonctionnalités"
-    },
-    "info_feature": {
-        "message": "Feature",
-        "description": "Nom de la fonctionnalité"
-    },
-    "info_type": {
-        "message": "Location / kind of item",
-        "description": "Nom de la fonctionnalité"
-    },
-    "info_option": {
-        "message": "Additional option",
-        "description": "Nom de la fonctionnalité"
-    },
-    "info_check": {
-        "message": "✅ / ❌",
-        "description": "Nom de la fonctionnalité"
-    },
-    "region_0": {
-        "message": "Kanto",
-        "description": "Kanto en francais"
-    },
-    "region_1": {
-        "message": "Johto",
-        "description": "Johto en francais"
-    },
-    "region_2": {
-        "message": "Hoenn",
-        "description": "Hoenn en francais"
-    },
-    "region_3": {
-        "message": "Sinnoh",
-        "description": "Sinnoh en francais"
-    },
-    "region_4": {
-        "message": "Unova",
-        "description": "Unys en francais"
-    },
-    "region_5": {
-        "message": "Kalos",
-        "description": "Kalos en francais"
-    },
-    "region_6": {
-        "message": "Alola",
-        "description": "Alola en francais"
-    },
-    "region_7": {
-        "message": "Galar",
-        "description": "Galar en francais"
-    }
+  "all": {
+    "message": "all",
+    "description": "all"
+  },
+  "attack_bonus": {
+    "message": "Attack Bonus",
+    "description": "Sort by attack bonus (proteins, etc.)"
+  },
+  "breed_egg_steps": {
+    "message": "Egg Steps",
+    "description": "Sort by egg steps required to hatch"
+  },
+  "breed_proteins_used": {
+    "message": "Proteins Used",
+    "description": "Sort by number of proteins used"
+  },
+  "manifest_description": {
+    "message": "Automatize Pokeclicker! It will help you to setup an autoclicker, manage hatchery, crawl dungeons and more.",
+    "description": "Application description. type"
+  },
+  "label_click": {
+    "message": "Autoclicker",
+    "description": "Label for autoclicker. type"
+  },
+  "label_hatch": {
+    "message": "Hatchery",
+    "description": "Label for hatchery. type"
+  },
+  "label_dungeon": {
+    "message": "Dungeon",
+    "description": "Label for dungeon. type"
+  },
+  "label_pokerus": {
+    "message": "Pokérus",
+    "description": "Label for Pokérus"
+  },
+  "label_catch": {
+    "message": "Catch",
+    "description": "Label for catch. type"
+  },
+  "label_gyms": {
+    "message": "Auto-Gym Battle",
+    "description": "Label for gyms and champions"
+  },
+  "details_click": {
+    "message": "Enables Autoclicker. Works on wild pokemon, gym leaders and champions.",
+    "description": "Details for autoclicker. type"
+  },
+  "details_hatch": {
+    "message": "Enables Hatchery. Hatch (or makes an egg from) Pokemon sorted accordingly to the setting.",
+    "description": "Details for hatchery. type"
+  },
+  "details_dungeon": {
+    "message": "Enables Dungeon. Solves N dungeons based on the setting.",
+    "description": "Details for dungeon. type"
+  },
+  "details_pokerus": {
+    "message": "Propagates Pokérus to all your pokemon.",
+    "description": "Details for pokerus"
+  },
+  "details_catch": {
+    "message": "Enables Catch based on type. Checks if should catch every 500ms : do not use a faster autoclicker!",
+    "description": "Details for catch. type"
+  },
+  "details_gyms": {
+    "message": "Enables auto-gym battles. You have to clear a gym at least once to enable this feature.",
+    "description": "Details for gyms and champions."
+  },
+  "error_message": {
+    "message": "This tool is only supposed to be used with the web app www.pokeclicker.com. To avoid scripts injections everywhere in this page, you instead see this nice little error message.",
+    "description": "Erreur"
+  },
+  "type_normal": {
+    "message": "Normal",
+    "description": "Name of the normal type"
+  },
+  "type_fire": {
+    "message": "Fire",
+    "description": "Name of the feu type"
+  },
+  "type_water": {
+    "message": "Water",
+    "description": "Name of the eau type"
+  },
+  "type_electric": {
+    "message": "Electric",
+    "description": "Name of the electrique type"
+  },
+  "type_grass": {
+    "message": "Grass",
+    "description": "Name of the plante type"
+  },
+  "type_ice": {
+    "message": "Ice",
+    "description": "Name of the glace type"
+  },
+  "type_fighting": {
+    "message": "Fighting",
+    "description": "Name of the combat type"
+  },
+  "type_poison": {
+    "message": "Poison",
+    "description": "Name of the poison type"
+  },
+  "type_ground": {
+    "message": "Ground",
+    "description": "Name of the sol type"
+  },
+  "type_flying": {
+    "message": "Flying",
+    "description": "Name of the vol type"
+  },
+  "type_psychic": {
+    "message": "Psychic",
+    "description": "Name of the psy type"
+  },
+  "type_bug": {
+    "message": "Bug",
+    "description": "Name of the insecte type"
+  },
+  "type_rock": {
+    "message": "Rock",
+    "description": "Name of the roche type"
+  },
+  "type_ghost": {
+    "message": "Ghost",
+    "description": "Name of the spectre type"
+  },
+  "type_dragon": {
+    "message": "Dragon",
+    "description": "Name of the dragon type"
+  },
+  "type_dark": {
+    "message": "Dark",
+    "description": "Name of the ténèbres type"
+  },
+  "type_steel": {
+    "message": "Steel",
+    "description": "Name of the acier type"
+  },
+  "ball_pokeball": {
+    "message": "Pokeball",
+    "description": "Nom de la balle Pokéball"
+  },
+  "ball_superball": {
+    "message": "Greatball",
+    "description": "Nom de la balle Superball"
+  },
+  "ball_hyperball": {
+    "message": "Ultraball",
+    "description": "Nom de la balle Ultraball"
+  },
+  "type_fairy": {
+    "message": "Fairy",
+    "description": "Name of the fée"
+  },
+  "breed_id": {
+    "message": "ID",
+    "description": "Sort by Pokédex ID"
+  },
+  "breed_name": {
+    "message": "Name",
+    "description": "Sort by Pokémon name"
+  },
+  "breed_attack": {
+    "message": "Attack",
+    "description": "Sort by current attack stat"
+  },
+  "breed_level": {
+    "message": "Level",
+    "description": "Sort by current level"
+  },
+  "breed_shiny": {
+    "message": "Shiny",
+    "description": "Sort by shiny status"
+  },
+  "breed_attack_max_level": {
+    "message": "Attack (Max Level)",
+    "description": "Sort by attack at max level"
+  },
+  "breed_base_attack": {
+    "message": "Base Attack",
+    "description": "Sort by base attack stat"
+  },
+  "breed_attack_bonus": {
+    "message": "Attack Bonus",
+    "description": "Sort by attack bonus (proteins, etc.)"
+  },
+  "breed_breeding_eff": {
+    "message": "Breeding Efficiency",
+    "description": "Sort by breeding efficiency (attack/egg cycles)"
+  },
+  "breed_egg_cycles": {
+    "message": "Egg Cycles",
+    "description": "Sort by egg cycles required to hatch"
+  },
+  "breed_times_hatched": {
+    "message": "Times Hatched",
+    "description": "Sort by number of times hatched"
+  },
+  "breed_category": {
+    "message": "Category",
+    "description": "Sort by Pokémon category"
+  },
+  "breed_vitamins_used": {
+    "message": "Vitamins Used",
+    "description": "Sort by number of vitamins used"
+  },
+  "breed_evs": {
+    "message": "EVs",
+    "description": "Sort by EVs (Effort Values)"
+  },
+  "info_main": {
+    "message": "You can click on any feature's blue arrow to see more details.",
+    "description": "Description des fonctionnalités"
+  },
+  "info_feature": {
+    "message": "Feature",
+    "description": "Nom de la fonctionnalité"
+  },
+  "info_type": {
+    "message": "Location / kind of item",
+    "description": "Nom de la fonctionnalité"
+  },
+  "info_option": {
+    "message": "Additional option",
+    "description": "Nom de la fonctionnalité"
+  },
+  "info_check": {
+    "message": "✅ / ❌",
+    "description": "Nom de la fonctionnalité"
+  },
+  "region_0": {
+    "message": "Kanto",
+    "description": "Kanto en francais"
+  },
+  "region_1": {
+    "message": "Johto",
+    "description": "Johto en francais"
+  },
+  "region_2": {
+    "message": "Hoenn",
+    "description": "Hoenn en francais"
+  },
+  "region_3": {
+    "message": "Sinnoh",
+    "description": "Sinnoh en francais"
+  },
+  "region_4": {
+    "message": "Unova",
+    "description": "Unys en francais"
+  },
+  "region_5": {
+    "message": "Kalos",
+    "description": "Kalos en francais"
+  },
+  "region_6": {
+    "message": "Alola",
+    "description": "Alola en francais"
+  },
+  "region_7": {
+    "message": "Galar",
+    "description": "Galar en francais"
+  }
 }

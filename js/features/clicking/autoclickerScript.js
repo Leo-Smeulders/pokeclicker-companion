@@ -11,16 +11,23 @@
     9: "temporaryBattle" */
 
 if (App.game && BattleFrontierRunner.started() === false) {
-    intervalMap.set('clickOption', document.currentScript.getAttribute('clickOption'));
-    intervalMap.set('autoclickInterval', setInterval(() => {
-        const battling = {
-            2: () => Battle.clickAttack(),
-            3: () => GymBattle.clickAttack(),
-            4: () => DungeonBattle.clickAttack(),
-        }
-        const func = battling[App.game.gameState]
-        if (func) {
-            func()
-        }
-    }, intervalMap.get('clickOption')));
+  intervalMap.set(
+    "clickOption",
+    document.currentScript.getAttribute("clickOption")
+  );
+  intervalMap.set(
+    "autoclickInterval",
+    setInterval(() => {
+      const battling = {
+        2: () => Battle.clickAttack(),
+        3: () => GymBattle.clickAttack(),
+        4: () => DungeonBattle.clickAttack(),
+        9: () => TemporaryBattleBattle.clickAttack(),
+      };
+      const func = battling[App.game.gameState];
+      if (func) {
+        func();
+      }
+    }, intervalMap.get("clickOption"))
+  );
 }

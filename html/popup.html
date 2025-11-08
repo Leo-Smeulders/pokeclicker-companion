@@ -1,90 +1,120 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokéclicker Companion</title>
-    <link rel="stylesheet" href="../css/popup.css">
-</head>
+    <link rel="stylesheet" href="../css/popup.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Pokéclicker Companion</h1>
+      <h1>Pokéclicker Companion</h1>
     </header>
     <main>
-        <div class="error">
-            <p id="error_message"></p>
-        </div>
+      <div class="error">
+        <p id="error_message"></p>
+      </div>
 
-        <p id="info_main"></p>
+      <p id="info_main"></p>
 
-        <div class="info">
-            <p id="info_feature"></p>
-            <p id="info_type"></p>
-            <p id="info_option"></p>
-            <p id="info_check"></p>
-        </div>
+      <div class="info">
+        <p id="info_feature"></p>
+        <p id="info_type"></p>
+        <p id="info_option"></p>
+        <p id="info_check"></p>
+      </div>
 
-        <div class="toggles">
-            <details>
-                <summary><label id="label_click" for="toggle-click"></label></summary>
-                <div id="details_click"></div>
-            </details>
-            <div></div>
-            <select id="select-click"></select>
-            <input type="checkbox" id="toggle-click">
+      <div class="toggles">
+        <details>
+          <summary><label id="label_click" for="toggle-click"></label></summary>
+          <div id="details_click"></div>
+        </details>
+        <div></div>
+        <select id="select-click"></select>
+        <input type="checkbox" id="toggle-click" />
 
-            <details>
-                <summary><label id="label_hatch" for="toggle-hatch"></label></summary>
-                <div id="details_hatch"></div>
-            </details>
-            <select id="select-hatch-region"></select>
-            <select id="select-hatch"></select>
-            <input type="checkbox" id="toggle-hatch">
+        <details>
+          <summary><label id="label_hatch" for="toggle-hatch"></label></summary>
+          <div id="details_hatch"></div>
+        </details>
 
-            <details>
-                <summary><label id="label_dungeon" for="toggle-dungeon"></label></summary>
-                <div id="details_dungeon"></div>
-            </details>
-            <select id="select-dungeon"></select>
-            <select id="select-dungeon-runs"></select>
-            <input type="checkbox" id="toggle-dungeon">
+        <select id="select-hatch-region"></select>
+        <select id="select-hatch"></select>
 
-            <details>
-                <summary><label id="label_gyms" for="toggle-gym"></label></summary>
-                <div id="details_gyms"></div>
-            </details>
-            <select id="select-gym"></select>
-            <select id="select-gym-runs"></select>
-            <input type="checkbox" id="toggle-gym">
+        <input type="checkbox" id="toggle-hatch" />
 
-            <details>
-                <summary><label id="label_catch" for="toggle-catch"></label></summary>
-                <div id="details_catch"></div>
-            </details>
-            <select id="select-ball-catch"></select>
-            <select id="select-catch"></select>
-            <input type="checkbox" id="toggle-catch">
+        <div>Options</div>
+        <select
+          id="select-hatch-type"
+          style="font-size: 12px; min-width: 80px"
+        ></select>
+        <label style="font-size: 12px"
+          ><input type="checkbox" id="filter-shiny" /> Not shiny</label
+        >
+        <label style="font-size: 12px"
+          ><input type="checkbox" id="filter-mega" /> Mega</label
+        >
 
-            <details>
-                <summary><label id="label_pokerus" for="toggle-pokerus"></label></summary>
-                <div id="details_pokerus"></div>
-            </details>
-            <div></div>
-            <div></div>
-            <input type="checkbox" id="toggle-pokerus">
-        </div>
+        <details>
+          <summary>
+            <label id="label_dungeon" for="toggle-dungeon"></label>
+          </summary>
+          <div id="details_dungeon"></div>
+        </details>
+        <select id="select-dungeon"></select>
+        <select id="select-dungeon-runs"></select>
+        <input type="checkbox" id="toggle-dungeon" />
+
+        <details>
+          <summary><label id="label_gyms" for="toggle-gym"></label></summary>
+          <div id="details_gyms"></div>
+        </details>
+        <select id="select-gym"></select>
+        <select id="select-gym-runs"></select>
+        <input type="checkbox" id="toggle-gym" />
+
+        <details>
+          <summary><label id="label_catch" for="toggle-catch"></label></summary>
+          <div id="details_catch"></div>
+        </details>
+        <select id="select-ball-catch"></select>
+        <select id="select-catch"></select>
+        <input type="checkbox" id="toggle-catch" />
+
+        <details>
+          <summary>
+            <label id="label_pokerus" for="toggle-pokerus"></label>
+          </summary>
+          <div id="details_pokerus"></div>
+        </details>
+        <div></div>
+        <div></div>
+        <input type="checkbox" id="toggle-pokerus" />
+
+        <details>
+          <summary>Auto-Purify</summary>
+          <div id="details_purify"></div>
+        </details>
+        <div></div>
+        <div></div>
+        <input type="checkbox" id="toggle-purify" />
+      </div>
     </main>
 
     <footer>
-        <p>&copy; 2022 - <a id="twitter-link" href="https://www.twitter.com/_lkyuu">@_LKyuu</a>
-            <a id="github-link" href="https://github.com/lordkyuusei/pokeclicker-companion">Code</a>
-            <span id="version"></span>
-        </p>
+      <p>
+        &copy; 2022 -
+        <a id="twitter-link" href="https://www.twitter.com/_lkyuu">@_LKyuu</a>
+        <a
+          id="github-link"
+          href="https://github.com/lordkyuusei/pokeclicker-companion"
+          >Code</a
+        >
+        <span id="version"></span>
+      </p>
     </footer>
 
     <script type="module" src="../js/popup.js"></script>
-</body>
-
+  </body>
 </html>

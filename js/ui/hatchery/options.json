@@ -1,46 +1,54 @@
 [
-    {
-        "id": 0,
-        "label": "breed_id"
-    },
-    {
-        "id": 1,
-        "label": "breed_name"
-    },
-    {
-        "id": 2,
-        "label": "breed_attack"
-    },
-    {
-        "id": 3,
-        "label": "breed_level"
-    },
-    {
-        "id": 4,
-        "label": "breed_shiny"
-    },
-    {
-        "id": 5,
-        "label": "breed_base_attack"
-    },
-    {
-        "id": 6,
-        "label": "breed_breeding_eff"
-    },
-    {
-        "id": 7,
-        "label": "breed_egg_steps"
-    },
-    {
-        "id": 8,
-        "label": "breed_times_hatched"
-    },
-    {
-        "id": 9,
-        "label": "breed_category"
-    },
-    {
-        "id": 10,
-        "label": "breed_proteins_used"
-    }
+  {
+    "id": 0,
+    "label": "breed_id"
+  },
+  {
+    "id": 1,
+    "label": "breed_name"
+  },
+  {
+    "id": 2,
+    "label": "breed_attack"
+  },
+  {
+    "id": 3,
+    "label": "breed_level"
+  },
+  {
+    "id": 4,
+    "label": "breed_shiny"
+  },
+  {
+    "id": 5,
+    "label": "level"
+  },
+  {
+    "id": 6,
+    "label": "breed_base_attack"
+  },
+  {
+    "id": 7,
+    "label": "attack_bonus"
+  },
+  {
+    "id": 8,
+    "label": "breed_breeding_eff"
+  },
+  {
+    "id": 9,
+    "label": "breed_egg_steps"
+  },
+  {
+    "id": 10,
+    "label": "breed_times_hatched"
+  },
+  {
+    "id": 11,
+    "label": "breed_category"
+  },
+  {
+    "id": 12,
+    "label": "breed_proteins_used"
+  }
 ]

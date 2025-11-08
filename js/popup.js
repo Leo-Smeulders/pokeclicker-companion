@@ -10,17 +10,19 @@ import { toggleGym, handleGymUpdate } from './ui/gyms/index.js';
 import { togglePokerus } from './ui/pokerus/index.js';
 import { toggleHatch, handleRegionUpdate } from './ui/hatchery/index.js';
 import defaultCallback from './ui/common/index.js';
+import { togglePurify } from './ui/purify/index.js';
 
 document.getElementById('version').innerHTML = manifest.version;
 
 const updateToggles = () => {
-    toggle(true, 'update-toggles', '', ({ click, hatch, dungeon, pokerus, catch_, gym } = {}) => {
+    toggle(true, 'update-toggles', '', ({ click, hatch, dungeon, pokerus, catch_, gym, purify } = {}) => {
         toggleGym.checked = gym;
         toggleHatch.checked = hatch;
         toggleClick.checked = click;
         toggleCatch.checked = catch_;
         toggleDungeon.checked = dungeon;
         togglePokerus.checked = pokerus;
+        togglePurify.checked = purify;
     });
 };
 

@@ -1,0 +1,78 @@
+[
+  {
+    "id": -1,
+    "label": "all"
+  },
+  {
+    "id": 0,
+    "label": "type_normal"
+  },
+  {
+    "id": 1,
+    "label": "type_fire"
+  },
+  {
+    "id": 2,
+    "label": "type_water"
+  },
+  {
+    "id": 3,
+    "label": "type_electric"
+  },
+  {
+    "id": 4,
+    "label": "type_grass"
+  },
+  {
+    "id": 5,
+    "label": "type_ice"
+  },
+  {
+    "id": 6,
+    "label": "type_fighting"
+  },
+  {
+    "id": 7,
+    "label": "type_poison"
+  },
+  {
+    "id": 8,
+    "label": "type_ground"
+  },
+  {
+    "id": 9,
+    "label": "type_flying"
+  },
+  {
+    "id": 10,
+    "label": "type_psychic"
+  },
+  {
+    "id": 11,
+    "label": "type_bug"
+  },
+  {
+    "id": 12,
+    "label": "type_rock"
+  },
+  {
+    "id": 13,
+    "label": "type_ghost"
+  },
+  {
+    "id": 14,
+    "label": "type_dragon"
+  },
+  {
+    "id": 15,
+    "label": "type_dark"
+  },
+  {
+    "id": 16,
+    "label": "type_steel"
+  },
+  {
+    "id": 17,
+    "label": "type_fairy"
+  }
+]
